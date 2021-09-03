@@ -5,6 +5,37 @@
     "abbreviation": "EH",
     "includes": [],
     "included_by": [
+      "cdb595e8-1dcb-46d2-8013-b915f818b321",
+      "b1faab38-2e7c-4507-b753-06d1e653412d"
+    ],
+    "category": {
+      "uuid": "50380292-b9c9-4711-b70d-8e03e2784cfb",
+      "title": "Medizinisch"
+    }
+  },
+  {
+    "uuid": "cdb595e8-1dcb-46d2-8013-b915f818b321",
+    "title": "Sanitäter A",
+    "abbreviation": "San A",
+    "includes": [
+      "8bdb343e-d78d-4cc9-80e7-7ccc36b556e1"
+    ],
+    "included_by": [
+      "3fc86c78-2b87-49f7-8721-af7f8d51747c"
+    ],
+    "category": {
+      "uuid": "50380292-b9c9-4711-b70d-8e03e2784cfb",
+      "title": "Medizinisch"
+    }
+  },
+  {
+    "uuid": "3fc86c78-2b87-49f7-8721-af7f8d51747c",
+    "title": "Sanitäter B",
+    "abbreviation": "San B",
+    "includes": [
+      "cdb595e8-1dcb-46d2-8013-b915f818b321"
+    ],
+    "included_by": [
       "b1faab38-2e7c-4507-b753-06d1e653412d"
     ],
     "category": {
@@ -17,10 +48,41 @@
     "title": "Sanitätshelfer",
     "abbreviation": "SanH",
     "includes": [
-      "8bdb343e-d78d-4cc9-80e7-7ccc36b556e1"
+      "8bdb343e-d78d-4cc9-80e7-7ccc36b556e1",
+      "3fc86c78-2b87-49f7-8721-af7f8d51747c"
+    ],
+    "included_by": [
+      "de6c2449-a764-4c39-8f44-de276e99451b"
+    ],
+    "category": {
+      "uuid": "50380292-b9c9-4711-b70d-8e03e2784cfb",
+      "title": "Medizinisch"
+    }
+  },
+  {
+    "uuid": "de6c2449-a764-4c39-8f44-de276e99451b",
+    "title": "Rettungshelfer",
+    "abbreviation": "RH",
+    "includes": [
+      "b1faab38-2e7c-4507-b753-06d1e653412d"
     ],
     "included_by": [
       "0b41fac6-ca9e-4b8a-82c5-849412187351"
+    ],
+    "category": {
+      "uuid": "50380292-b9c9-4711-b70d-8e03e2784cfb",
+      "title": "Medizinisch"
+    }
+  },
+  {
+    "uuid": "0b41fac6-ca9e-4b8a-82c5-849412187351",
+    "title": "Rettungssanitäter",
+    "abbreviation": "RettSan",
+    "includes": [
+      "de6c2449-a764-4c39-8f44-de276e99451b"
+    ],
+    "included_by": [
+      "2a24e395-fa02-4b2e-8215-7763b04d85c8"
     ],
     "category": {
       "uuid": "50380292-b9c9-4711-b70d-8e03e2784cfb",
