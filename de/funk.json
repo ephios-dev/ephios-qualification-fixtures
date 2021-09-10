@@ -1,0 +1,24 @@
+[
+  {
+    "uuid": "506c4d4c-df11-4d41-95d7-c4ddfc78b706",
+    "title": "BOS-Sprechfunk (digital)",
+    "abbreviation": "Digitalfunk",
+    "includes": [],
+    "included_by": [],
+    "category": {
+      "uuid": "368fb612-f8c5-476a-a4e7-1478996a8ab3",
+      "title": "BOS-Funk"
+    }
+  },
+  {
+    "uuid": "4974ea66-2086-4987-958b-503de21a285a",
+    "title": "BOS-Sprechfunk (analog)",
+    "abbreviation": "Analogfunk",
+    "includes": [],
+    "included_by": [],
+    "category": {
+      "uuid": "368fb612-f8c5-476a-a4e7-1478996a8ab3",
+      "title": "BOS-Funk"
+    }
+  }
+]

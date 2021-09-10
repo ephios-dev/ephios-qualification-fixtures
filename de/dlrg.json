@@ -1,0 +1,80 @@
+[
+  {
+    "uuid": "7ec0c9e2-f211-4370-b796-e309f3e9b448",
+    "title": "DLRG-Bootsführerschein A",
+    "abbreviation": "MRB Binnen",
+    "includes": [
+      "edd7df71-616a-4c63-8ff4-061343a2c040"
+    ],
+    "included_by": [],
+    "category": {
+      "uuid": "93574a61-1a6e-4dd5-8df3-40e8c51b693f",
+      "title": "Wasserrettung (DLRG)"
+    }
+  },
+  {
+    "uuid": "1ba25ee1-fa88-4d44-9416-3a024caa6daf",
+    "title": "DLRG-Bootsführerschein B",
+    "abbreviation": "MRB See",
+    "includes": [
+      "ba9e2922-0c71-4ca2-8a11-9a3152335e57"
+    ],
+    "included_by": [],
+    "category": {
+      "uuid": "93574a61-1a6e-4dd5-8df3-40e8c51b693f",
+      "title": "Wasserrettung (DLRG)"
+    }
+  },
+  {
+    "uuid": "bd7ca398-ed2a-4e97-b681-bc8fb1138ada",
+    "title": "Fachausbildung Wasserrettungsdienst",
+    "abbreviation": "FA WRD",
+    "includes": [],
+    "included_by": [
+      "e1c1fac1-146d-4a52-935e-36455bcf0f87"
+    ],
+    "category": {
+      "uuid": "93574a61-1a6e-4dd5-8df3-40e8c51b693f",
+      "title": "Wasserrettung (DLRG)"
+    }
+  },
+  {
+    "uuid": "e1c1fac1-146d-4a52-935e-36455bcf0f87",
+    "title": "Strömungsretter I",
+    "abbreviation": "Strömungsretter I",
+    "includes": [
+      "bd7ca398-ed2a-4e97-b681-bc8fb1138ada"
+    ],
+    "included_by": [
+      "9c506e7e-a456-4f22-8027-5365ab7dc58c"
+    ],
+    "category": {
+      "uuid": "93574a61-1a6e-4dd5-8df3-40e8c51b693f",
+      "title": "Wasserrettung (DLRG)"
+    }
+  },
+  {
+    "uuid": "9c506e7e-a456-4f22-8027-5365ab7dc58c",
+    "title": "Strömungsretter II",
+    "abbreviation": "Strömungsretter II",
+    "includes": [
+      "e1c1fac1-146d-4a52-935e-36455bcf0f87"
+    ],
+    "included_by": [],
+    "category": {
+      "uuid": "93574a61-1a6e-4dd5-8df3-40e8c51b693f",
+      "title": "Wasserrettung (DLRG)"
+    }
+  },
+  {
+    "uuid": "e8ff96da-0dd3-4664-9b9d-3c4abc1f40de",
+    "title": "DLRG-Betriebsfunk",
+    "abbreviation": "DLRG-Sprechfunker",
+    "includes": [],
+    "included_by": [],
+    "category": {
+      "uuid": "93574a61-1a6e-4dd5-8df3-40e8c51b693f",
+      "title": "Wasserrettung (DLRG)"
+    }
+  }
+]
