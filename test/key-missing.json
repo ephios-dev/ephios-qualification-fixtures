@@ -15,8 +15,8 @@
   {
     "uuid": "cc5ab73d-a1d6-4e95-93d2-aaf6c51ae91f",
     "title": "Fahrerlaubnis Klasse T",
+    "abbreviation": "Fe T",
     "includes": [],
-    "included_by": [],
     "category": {
       "uuid": "a5669cc2-7444-4046-8c33-d8ee0bbf881c",
       "title": "Führerschein Trecker"
