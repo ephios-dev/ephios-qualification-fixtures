@@ -1,0 +1,13 @@
+{
+  "uuid": "1c007860-48eb-4c86-a35b-45c6de903de4",
+  "title": "Fahrerlaubnis Klasse L",
+  "abbreviation": "Fe L",
+  "includes": [],
+  "included_by": [
+    "0715b687-877a-4fed-bde0-5ea06b1043fc"
+  ],
+  "category": {
+    "uuid": "a5669cc2-7444-4046-8c33-d8ee0bbf881c",
+    "title": "Führerschein Trecker"
+  }
+}
