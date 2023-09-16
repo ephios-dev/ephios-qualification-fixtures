@@ -1,0 +1,82 @@
+[
+  {
+    "uuid": "edd7df71-616a-4c63-8ff4-061343a2c040",
+    "title": "Sportbootführerschein Binnen unter Motor",
+    "abbreviation": "SBF Binnen",
+    "includes": [],
+    "included_by": [
+      "7ec0c9e2-f211-4370-b796-e309f3e9b448",
+      "60922f24-2f82-4591-88d7-2f43d47e33d0"
+    ],
+    "category": {
+      "uuid": "075a41a1-b84d-4e44-9eb1-60fcbac60c42",
+      "title": "Boot"
+    }
+  },
+  {
+    "uuid": "ba9e2922-0c71-4ca2-8a11-9a3152335e57",
+    "title": "Sportbootführerschein See",
+    "abbreviation": "SBF See",
+    "includes": [],
+    "included_by": [
+      "1ba25ee1-fa88-4d44-9416-3a024caa6daf",
+      "c027f2bf-a185-4337-845a-2c3bf3c0da19"
+    ],
+    "category": {
+      "uuid": "075a41a1-b84d-4e44-9eb1-60fcbac60c42",
+      "title": "Boot"
+    }
+  },
+  {
+    "uuid": "7ec0c9e2-f211-4370-b796-e309f3e9b448",
+    "title": "DLRG-Bootsführerschein A",
+    "abbreviation": "MRB Binnen",
+    "includes": [
+      "edd7df71-616a-4c63-8ff4-061343a2c040"
+    ],
+    "included_by": [],
+    "category": {
+      "uuid": "075a41a1-b84d-4e44-9eb1-60fcbac60c42",
+      "title": "Boot"
+    }
+  },
+  {
+    "uuid": "1ba25ee1-fa88-4d44-9416-3a024caa6daf",
+    "title": "DLRG-Bootsführerschein B",
+    "abbreviation": "MRB See",
+    "includes": [
+      "ba9e2922-0c71-4ca2-8a11-9a3152335e57"
+    ],
+    "included_by": [],
+    "category": {
+      "uuid": "075a41a1-b84d-4e44-9eb1-60fcbac60c42",
+      "title": "Boot"
+    }
+  },
+  {
+    "uuid": "60922f24-2f82-4591-88d7-2f43d47e33d0",
+    "title": "Wasserwacht Dienstbootsführerschein Binnen",
+    "abbreviation": "MRB Binnen",
+    "includes": [
+      "edd7df71-616a-4c63-8ff4-061343a2c040"
+    ],
+    "included_by": [],
+    "category": {
+      "uuid": "075a41a1-b84d-4e44-9eb1-60fcbac60c42",
+      "title": "Boot"
+    }
+  },
+  {
+    "uuid": "c027f2bf-a185-4337-845a-2c3bf3c0da19",
+    "title": "Wasserwacht Dienstbootsführerschein See",
+    "abbreviation": "MRB See",
+    "includes": [
+      "ba9e2922-0c71-4ca2-8a11-9a3152335e57"
+    ],
+    "included_by": [],
+    "category": {
+      "uuid": "075a41a1-b84d-4e44-9eb1-60fcbac60c42",
+      "title": "Boot"
+    }
+  }
+]

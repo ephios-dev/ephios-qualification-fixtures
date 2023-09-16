@@ -1,0 +1,58 @@
+[
+  {
+    "uuid": "436aaab0-5e8f-43aa-8f33-7d9ea68f7973",
+    "title": "Signalmann",
+    "abbreviation": "Signalmann",
+    "includes": [],
+    "included_by": [
+      "52fc6a88-6e56-4af5-8021-b8a6412f405c"
+    ],
+    "category": {
+      "uuid": "47d92afc-d650-4a98-a0a4-e40a2c5fa723",
+      "title": "Tauchen"
+    }
+  },
+  {
+    "uuid": "52fc6a88-6e56-4af5-8021-b8a6412f405c",
+    "title": "Einsatztaucher Stufe 1",
+    "abbreviation": "ET1",
+    "includes": [
+      "436aaab0-5e8f-43aa-8f33-7d9ea68f7973"
+    ],
+    "included_by": [
+      "481fc9fb-e90a-4b83-8a07-456034aa0a33"
+    ],
+    "category": {
+      "uuid": "47d92afc-d650-4a98-a0a4-e40a2c5fa723",
+      "title": "Tauchen"
+    }
+  },
+  {
+    "uuid": "481fc9fb-e90a-4b83-8a07-456034aa0a33",
+    "title": "Einsatztaucher Stufe 2",
+    "abbreviation": "ET2",
+    "includes": [
+      "52fc6a88-6e56-4af5-8021-b8a6412f405c"
+    ],
+    "included_by": [
+      "a3c5a3a0-f577-4bf5-8b2f-84108022d793"
+    ],
+    "category": {
+      "uuid": "47d92afc-d650-4a98-a0a4-e40a2c5fa723",
+      "title": "Tauchen"
+    }
+  },
+  {
+    "uuid": "a3c5a3a0-f577-4bf5-8b2f-84108022d793",
+    "title": "Taucheinsatzführer",
+    "abbreviation": "TEF",
+    "includes": [
+      "481fc9fb-e90a-4b83-8a07-456034aa0a33"
+    ],
+    "included_by": [],
+    "category": {
+      "uuid": "47d92afc-d650-4a98-a0a4-e40a2c5fa723",
+      "title": "Tauchen"
+    }
+  }
+]
