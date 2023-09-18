@@ -9,7 +9,7 @@
     ],
     "category": {
       "uuid": "cd10e68f-41fe-4ca0-a624-3ab3eb85bd08",
-      "title": "Wasserrettungsdienst"
+      "title": "Rettungsschwimmabzeichen"
     }
   },
   {
@@ -24,7 +24,7 @@
     ],
     "category": {
       "uuid": "cd10e68f-41fe-4ca0-a624-3ab3eb85bd08",
-      "title": "Wasserrettungsdienst"
+      "title": "Rettungsschwimmabzeichen"
     }
   },
   {
@@ -37,19 +37,7 @@
     "included_by": [],
     "category": {
       "uuid": "cd10e68f-41fe-4ca0-a624-3ab3eb85bd08",
-      "title": "Wasserrettungsdienst"
-    }
-  },
-  << TODO add DRK RSWRD/WR/FWR >>
-  {
-    "uuid": "bd7ca398-ed2a-4e97-b681-bc8fb1138ada",
-    "title": "Wasserretter (DLRG)",
-    "abbreviation": "WR",
-    "includes": [],
-    "included_by": [],
-    "category": {
-      "uuid": "cd10e68f-41fe-4ca0-a624-3ab3eb85bd08",
-      "title": "Wasserrettungsdienst"
+      "title": "Rettungsschwimmabzeichen"
     }
   }
 ]

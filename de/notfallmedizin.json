@@ -118,11 +118,22 @@
     }
   },
   {
+    "uuid": "3ac4c0df-57f9-4993-b870-1b82462c9d9e",
+    "title": "Organisatorische*r Leiter*in Rettungsdienst",
+    "abbreviation": "OrgL",
+    "includes": [],
+    "included_by": [],
+    "category": {
+      "uuid": "50380292-b9c9-4711-b70d-8e03e2784cfb",
+      "title": "Notfallmedizin"
+    }
+  },
+  {
     "uuid": "cb4f4ebc-3adf-4d32-a427-0ac0f686038a",
     "title": "Notärzt*in",
     "abbreviation": "NA",
     "includes": [
-      "8bdb343e-d78d-4cc9-80e7-7ccc36b556e1"
+      "bfcc1988-9708-4422-aacb-d08f39fec54e"
     ],
     "included_by": [],
     "category": {
