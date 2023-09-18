@@ -1,0 +1,43 @@
+[
+  {
+    "uuid": "592604dd-afa2-4e21-ad0f-40c8b8e3b7eb",
+    "title": "Rettungsschwimmer im Wasserrettungsdient",
+    "abbreviation": "RS WRD",
+    "includes": [],
+    "included_by": [
+      "502ee4cc-6e4e-47c0-9b0d-858c8e8638e1"
+    ],
+    "category": {
+      "uuid": "da12fc0d-d14f-4ab6-8939-d4b2fbae94a6",
+      "title": "Wasserrettung (DRK)"
+    }
+  },
+  {
+    "uuid": "502ee4cc-6e4e-47c0-9b0d-858c8e8638e1",
+    "title": "Wasserretter",
+    "abbreviation": "WR",
+    "includes": [
+      "592604dd-afa2-4e21-ad0f-40c8b8e3b7eb"
+    ],
+    "included_by": [
+      "5c523010-1e86-4b04-8190-542da69ecbcf"
+    ],
+    "category": {
+      "uuid": "da12fc0d-d14f-4ab6-8939-d4b2fbae94a6",
+      "title": "Wasserrettung (DRK)"
+    }
+  },
+  {
+    "uuid": "5c523010-1e86-4b04-8190-542da69ecbcf",
+    "title": "Fließwasserretter",
+    "abbreviation": "FWR",
+    "includes": [
+      "502ee4cc-6e4e-47c0-9b0d-858c8e8638e1"
+    ],
+    "included_by": [],
+    "category": {
+      "uuid": "da12fc0d-d14f-4ab6-8939-d4b2fbae94a6",
+      "title": "Wasserrettung (DRK)"
+    }
+  }
+]

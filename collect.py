@@ -24,7 +24,13 @@ def collect(path: Path):
     for json_path in json_paths:
         with open(json_path, "r") as json_file:
             objects = json.load(json_file)
-        all_objects += objects
+        for obj in objects:
+            if obj['uuid'] in [o['uuid'] for o in all_objects]:
+                print("ERROR")
+                print(f"duplicate object uuid {obj['title']}")
+                sys.exit(1)
+            all_objects.append(obj)
+
 
     with open(path / TARGET_FILENAME, "w") as target_file:
         json.dump(all_objects, target_file, ensure_ascii=False)
@@ -52,7 +58,7 @@ def main():
     for path in paths:
         print(f"Collecting '{path!s}': ", end="", flush=True)
         collect(path)
-        print("done")
+        print("DONE")
 
 
 if __name__ == "__main__":

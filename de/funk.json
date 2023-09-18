@@ -7,7 +7,7 @@
     "included_by": [],
     "category": {
       "uuid": "368fb612-f8c5-476a-a4e7-1478996a8ab3",
-      "title": "BOS-Funk"
+      "title": "Funk"
     }
   },
   {
@@ -18,7 +18,18 @@
     "included_by": [],
     "category": {
       "uuid": "368fb612-f8c5-476a-a4e7-1478996a8ab3",
-      "title": "BOS-Funk"
+      "title": "Funk"
+    }
+  },
+  {
+    "uuid": "e8ff96da-0dd3-4664-9b9d-3c4abc1f40de",
+    "title": "DLRG-Betriebsfunk",
+    "abbreviation": "DLRG-Sprechfunker",
+    "includes": [],
+    "included_by": [],
+    "category": {
+      "uuid": "368fb612-f8c5-476a-a4e7-1478996a8ab3",
+      "title": "Funk"
     }
   }
 ]
