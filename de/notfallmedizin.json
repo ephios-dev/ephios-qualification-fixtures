@@ -124,7 +124,9 @@
     "includes": [
       "bfcc1988-9708-4422-aacb-d08f39fec54e"
     ],
-    "included_by": [],
+    "included_by": [
+      "de748a16-c063-4c4c-9cc2-4e4e904e0d6d"
+    ],
     "category": {
       "uuid": "50380292-b9c9-4711-b70d-8e03e2784cfb",
       "title": "Notfallmedizin"
