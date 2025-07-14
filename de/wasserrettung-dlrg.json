@@ -4,7 +4,9 @@
     "title": "Wasserretter (Fachausbildung Wasserrettungsdienst)",
     "abbreviation": "WR",
     "includes": [],
-    "included_by": [],
+    "included_by": [
+      "c3d2e1f0-9a8b-4c7d-8e6f-5b4c3a2d1e0f"
+    ],
     "category": {
       "uuid": "93574a61-1a6e-4dd5-8df3-40e8c51b693f",
       "title": "Wasserrettung (DLRG)"
@@ -29,6 +31,34 @@
     "abbreviation": "SR2",
     "includes": [
       "e1c1fac1-146d-4a52-935e-36455bcf0f87"
+    ],
+    "included_by": [],
+    "category": {
+      "uuid": "93574a61-1a6e-4dd5-8df3-40e8c51b693f",
+      "title": "Wasserrettung (DLRG)"
+    }
+  },
+
+  {
+    "uuid": "b7c0d6f1-2a3e-4f5b-8c9d-2f3e4b5c6d7e",
+    "title": "Führungslehre",
+    "abbreviation": "Fü-Le",
+    "includes": [],
+    "included_by": [
+      "c3d2e1f0-9a8b-4c7d-8e6f-5b4c3a2d1e0f"
+    ],
+    "category": {
+      "uuid": "93574a61-1a6e-4dd5-8df3-40e8c51b693f",
+      "title": "Wasserrettung (DLRG)"
+    }
+  },
+  {
+    "uuid": "c3d2e1f0-9a8b-4c7d-8e6f-5b4c3a2d1e0f",
+    "title": "Wachführer*in",
+    "abbreviation": "WF",
+    "includes": [
+      "bd7ca398-ed2a-4e97-b681-bc8fb1138ada",
+      "b7c0d6f1-2a3e-4f5b-8c9d-2f3e4b5c6d7e"
     ],
     "included_by": [],
     "category": {
