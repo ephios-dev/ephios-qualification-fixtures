@@ -7,6 +7,7 @@
     ],
     "included_by": [
       "bd7ca398-ed2a-4e97-b681-bc8fb1138ada",
+      "e1c1fac1-146d-4a52-935e-36455bcf0f87",
       "b7c0d6f1-2a3e-4f5b-8c9d-2f3e4b5c6d7e"
     ],
     "category": {
@@ -33,7 +34,9 @@
     "uuid": "e1c1fac1-146d-4a52-935e-36455bcf0f87",
     "title": "Strömungsretter 1",
     "abbreviation": "SR1",
-    "includes": [],
+    "includes": [
+      "93574a61-1a6e-4dd5-8df3-40e8c51b693f"
+    ],
     "included_by": [
       "9c506e7e-a456-4f22-8027-5365ab7dc58c"
     ],
