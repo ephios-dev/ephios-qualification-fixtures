@@ -50,6 +50,17 @@
     "included_by": []
   },
   {
+    "uuid": "3ac4c0df-57f9-4993-b870-1b82462c9d9e",
+    "title": "Organisatorische*r Leiter*in Rettungsdienst",
+    "abbreviation": "OrgL",
+    "includes": [],
+    "included_by": [],
+    "category": {
+      "uuid": "50380292-b9c9-4711-b70d-8e03e2784cfb",
+      "title": "Notfallmedizin"
+    }
+  },
+  {
     "uuid": "d47938f7-8138-4356-8960-1f6ed3fb2ccf",
     "title": "Fachberater*in",
     "abbreviation": "Fachb",
