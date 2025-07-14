@@ -48,5 +48,40 @@
       "800c9f6c-5398-4feb-8d99-9c6b2ff3e42e"
     ],
     "included_by": []
+  },
+  {
+    "uuid": "3ac4c0df-57f9-4993-b870-1b82462c9d9e",
+    "title": "Organisatorische*r Leiter*in Rettungsdienst",
+    "abbreviation": "OrgL",
+    "category": {
+      "uuid": "605f7761-73df-4b41-a992-19a765f4bf49",
+      "title": "Taktisch"
+    },
+    "includes": [],
+    "included_by": []
+  },
+  {
+    "uuid": "de748a16-c063-4c4c-9cc2-4e4e904e0d6d",
+    "title": "Leitender*e Notärzt*in",
+    "abbreviation": "LNA",
+    "category": {
+      "uuid": "605f7761-73df-4b41-a992-19a765f4bf49",
+      "title": "Taktisch"
+    },
+    "includes": [
+      "cb4f4ebc-3adf-4d32-a427-0ac0f686038a"
+    ],
+    "included_by": []
+  },
+  {
+    "uuid": "d47938f7-8138-4356-8960-1f6ed3fb2ccf",
+    "title": "Fachberater*in",
+    "abbreviation": "Fachb",
+    "category": {
+      "uuid": "605f7761-73df-4b41-a992-19a765f4bf49",
+      "title": "Taktisch"
+    },
+    "includes": [],
+    "included_by": []
   }
 ]

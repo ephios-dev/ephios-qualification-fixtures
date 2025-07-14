@@ -1,7 +1,7 @@
 [
   {
     "uuid": "8bdb343e-d78d-4cc9-80e7-7ccc36b556e1",
-    "title": "Ersthelfer",
+    "title": "Ersthelfer*in",
     "abbreviation": "EH",
     "includes": [],
     "included_by": [
@@ -10,12 +10,12 @@
     ],
     "category": {
       "uuid": "50380292-b9c9-4711-b70d-8e03e2784cfb",
-      "title": "Medizinisch"
+      "title": "Notfallmedizin"
     }
   },
   {
     "uuid": "cdb595e8-1dcb-46d2-8013-b915f818b321",
-    "title": "Sanitäter A",
+    "title": "Sanitäter*in A",
     "abbreviation": "San A",
     "includes": [
       "8bdb343e-d78d-4cc9-80e7-7ccc36b556e1"
@@ -25,12 +25,12 @@
     ],
     "category": {
       "uuid": "50380292-b9c9-4711-b70d-8e03e2784cfb",
-      "title": "Medizinisch"
+      "title": "Notfallmedizin"
     }
   },
   {
     "uuid": "3fc86c78-2b87-49f7-8721-af7f8d51747c",
-    "title": "Sanitäter B",
+    "title": "Sanitäter*in B",
     "abbreviation": "San B",
     "includes": [
       "cdb595e8-1dcb-46d2-8013-b915f818b321"
@@ -40,12 +40,12 @@
     ],
     "category": {
       "uuid": "50380292-b9c9-4711-b70d-8e03e2784cfb",
-      "title": "Medizinisch"
+      "title": "Notfallmedizin"
     }
   },
   {
     "uuid": "b1faab38-2e7c-4507-b753-06d1e653412d",
-    "title": "Sanitätshelfer",
+    "title": "Sanitätshelfer*in",
     "abbreviation": "SanH",
     "includes": [
       "8bdb343e-d78d-4cc9-80e7-7ccc36b556e1",
@@ -56,12 +56,12 @@
     ],
     "category": {
       "uuid": "50380292-b9c9-4711-b70d-8e03e2784cfb",
-      "title": "Medizinisch"
+      "title": "Notfallmedizin"
     }
   },
   {
     "uuid": "de6c2449-a764-4c39-8f44-de276e99451b",
-    "title": "Rettungshelfer",
+    "title": "Rettungshelfer*in",
     "abbreviation": "RH",
     "includes": [
       "b1faab38-2e7c-4507-b753-06d1e653412d"
@@ -71,12 +71,12 @@
     ],
     "category": {
       "uuid": "50380292-b9c9-4711-b70d-8e03e2784cfb",
-      "title": "Medizinisch"
+      "title": "Notfallmedizin"
     }
   },
   {
     "uuid": "0b41fac6-ca9e-4b8a-82c5-849412187351",
-    "title": "Rettungssanitäter",
+    "title": "Rettungssanitäter*in",
     "abbreviation": "RettSan",
     "includes": [
       "de6c2449-a764-4c39-8f44-de276e99451b"
@@ -86,12 +86,12 @@
     ],
     "category": {
       "uuid": "50380292-b9c9-4711-b70d-8e03e2784cfb",
-      "title": "Medizinisch"
+      "title": "Notfallmedizin"
     }
   },
   {
     "uuid": "2a24e395-fa02-4b2e-8215-7763b04d85c8",
-    "title": "Rettungsassistent",
+    "title": "Rettungsassistent*in",
     "abbreviation": "RA",
     "includes": [
       "0b41fac6-ca9e-4b8a-82c5-849412187351"
@@ -101,12 +101,12 @@
     ],
     "category": {
       "uuid": "50380292-b9c9-4711-b70d-8e03e2784cfb",
-      "title": "Medizinisch"
+      "title": "Notfallmedizin"
     }
   },
   {
     "uuid": "d114125b-7cf4-49e2-8908-f93e2f95dfb8",
-    "title": "Notfallsanitäter",
+    "title": "Notfallsanitäter*in",
     "abbreviation": "NFS",
     "includes": [
       "2a24e395-fa02-4b2e-8215-7763b04d85c8"
@@ -114,18 +114,22 @@
     "included_by": [],
     "category": {
       "uuid": "50380292-b9c9-4711-b70d-8e03e2784cfb",
-      "title": "Medizinisch"
+      "title": "Notfallmedizin"
     }
   },
   {
     "uuid": "cb4f4ebc-3adf-4d32-a427-0ac0f686038a",
-    "title": "Notarzt",
+    "title": "Notärzt*in",
     "abbreviation": "NA",
-    "includes": [],
-    "included_by": [],
+    "includes": [
+      "bfcc1988-9708-4422-aacb-d08f39fec54e"
+    ],
+    "included_by": [
+      "de748a16-c063-4c4c-9cc2-4e4e904e0d6d"
+    ],
     "category": {
       "uuid": "50380292-b9c9-4711-b70d-8e03e2784cfb",
-      "title": "Medizinisch"
+      "title": "Notfallmedizin"
     }
   }
 ]
