@@ -31,5 +31,40 @@
       "uuid": "368fb612-f8c5-476a-a4e7-1478996a8ab3",
       "title": "Funk"
     }
+  },
+  {
+    "uuid": "80946d2f-cbec-4e2e-9456-b4b9ce3b7fbc",
+    "title": "Short Range Certificate",
+    "abbreviation": "SRC",
+    "includes": [],
+    "included_by": [],
+    "category": {
+      "uuid": "368fb612-f8c5-476a-a4e7-1478996a8ab3",
+      "title": "Funk"
+    }
+  },
+  {
+    "uuid": "570894f3-c8cd-4663-a0ed-f1fde78f3d64",
+    "title": "Long Range Certificate",
+    "abbreviation": "LRC",
+    "includes": [
+      "80946d2f-cbec-4e2e-9456-b4b9ce3b7fbc"
+    ],
+    "included_by": [],
+    "category": {
+      "uuid": "368fb612-f8c5-476a-a4e7-1478996a8ab3",
+      "title": "Funk"
+    }
+  },
+  {
+    "uuid": "c4a86388-45b8-4886-929f-8978df9d4ede",
+    "title": "UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk",
+    "abbreviation": "UBI",
+    "includes": [],
+    "included_by": [],
+    "category": {
+      "uuid": "368fb612-f8c5-476a-a4e7-1478996a8ab3",
+      "title": "Funk"
+    }
   }
 ]
