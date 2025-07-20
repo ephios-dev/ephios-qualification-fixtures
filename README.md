@@ -10,11 +10,11 @@ in the qualification importer in ephios.
 
 ## Visualizing
 
-Use the `--visualize` flag with the collect script to generate 
+Use the `--mermaid` flag with the collect script to generate 
 mermaid code visualizing the inclusions in every `_all.json`.
 
 ```bash
-python collect.py --all --visualize
+python collect.py --all --mermaid
 ```
 
 The code can be rendered to an image using mermaid-cli, e.g.:

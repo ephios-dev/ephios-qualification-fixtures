@@ -15,22 +15,18 @@ TARGET_FILENAME = "_all.json"
 
 
 def collect(path: Path):
-    json_paths = set(
-        path for path in path.glob("**/*.json") if path.name != TARGET_FILENAME
-    )
-
     all_objects = []
-
-    for json_path in json_paths:
+    for json_path in sorted(
+        [path for path in path.glob("**/*.json") if path.name != TARGET_FILENAME]
+    ):
         with open(json_path, "r") as json_file:
             objects = json.load(json_file)
         for obj in objects:
-            if obj['uuid'] in [o['uuid'] for o in all_objects]:
+            if obj["uuid"] in [o["uuid"] for o in all_objects]:
                 print("ERROR")
                 print(f"duplicate object uuid {obj['title']}")
                 sys.exit(1)
             all_objects.append(obj)
-
 
     with open(path / TARGET_FILENAME, "w") as target_file:
         json.dump(all_objects, target_file, ensure_ascii=False)
@@ -40,37 +36,53 @@ def visualize(path):
     with open(path / TARGET_FILENAME, "r") as target_file:
         all_objects = json.load(target_file)
 
-    all_objects = sorted(all_objects, key=lambda o: o["category"]["title"])
     script = "flowchart LR\n"
     edges = set()
     for obj in all_objects:
-        uuid = obj['uuid']
+        uuid = obj["uuid"]
         script += f'\t{uuid}(["{obj['abbreviation']}"])\n'
-        for includes in obj['includes']:
+        for includes in obj["includes"]:
             edges.add((uuid, includes))
-        for included_by in obj['included_by']:
+        for included_by in obj["included_by"]:
             edges.add((included_by, uuid))
-    for a,b in edges:
-        script += f'\t{a} --> {b}\n'
+    for a, b in sorted(edges):
+        script += f"\t{a} --> {b}\n"
 
-    with open(path / f"{TARGET_FILENAME}.mermaid" , "w") as mermaid_file:
+    with open(path / f"{TARGET_FILENAME}.mermaid", "w") as mermaid_file:
         mermaid_file.write(script)
 
 
 def main():
     parser = argparse.ArgumentParser(
         description=f"Concatenate lists in every json file contained in the input paths together in one json file called `{TARGET_FILENAME}` "
-                    "so that it can be imported as a single file."
+        "so that it can be imported as a single file."
     )
     input_group = parser.add_mutually_exclusive_group(required=True)
-    input_group.add_argument("-p", "--paths", nargs="+", type=Path, dest="paths", metavar="PATH")
-    input_group.add_argument("-a", "--all", action="store_true", dest="collect_all", help="collect from all two-letter subdirectories of the working directory")
-    parser.add_argument("-v", "--visualize", action="store_true", dest="visualize", help="generate mermaid.js code for the inclusion graph")
-
+    input_group.add_argument(
+        "-p", "--paths", nargs="+", type=Path, dest="paths", metavar="PATH"
+    )
+    input_group.add_argument(
+        "-a",
+        "--all",
+        action="store_true",
+        dest="collect_all",
+        help="collect from all two-letter subdirectories of the working directory",
+    )
+    parser.add_argument(
+        "-m",
+        "--mermaid",
+        action="store_true",
+        dest="mermaid",
+        help="generate mermaid code for the inclusion graph",
+    )
     args = parser.parse_args()
 
     if args.collect_all:
-        paths = [p for p in Path(".").iterdir() if p.is_dir() and re.fullmatch(r"\w{2}", p.name)]
+        paths = [
+            p
+            for p in Path(".").iterdir()
+            if p.is_dir() and re.fullmatch(r"\w{2}", p.name)
+        ]
     else:
         paths = args.paths
         for path in paths:
@@ -80,7 +92,7 @@ def main():
     for path in paths:
         print(f"Collecting '{path!s}': ", end="", flush=True)
         collect(path)
-        if args.visualize:
+        if args.mermaid:
             visualize(path)
         print("DONE")
 
