@@ -3,6 +3,7 @@
     "uuid": "1c007860-48eb-4c86-a35b-45c6de903de4",
     "title": "Fahrerlaubnis Klasse L",
     "abbreviation": "Fe L",
+    "default_expiration_time": "",
     "includes": [],
     "included_by": [
       "0715b687-877a-4fed-bde0-5ea06b1043fc"
@@ -16,6 +17,7 @@
     "uuid": "cc5ab73d-a1d6-4e95-93d2-aaf6c51ae91f",
     "title": "Fahrerlaubnis Klasse T",
     "abbreviation": "Fe T",
+    "default_expiration_time": "",
     "includes": [],
     "included_by": [],
     "category": {
@@ -27,6 +29,7 @@
     "uuid": "f96bdfef-f1b8-46aa-8755-e506075ebc88",
     "title": "Fahrerlaubnis Klasse AM",
     "abbreviation": "Fe AM",
+    "default_expiration_time": "",
     "includes": [],
     "included_by": [
       "d7e9da8f-8386-4e7d-8706-62103bfe78f1",
@@ -41,6 +44,7 @@
     "uuid": "d7e9da8f-8386-4e7d-8706-62103bfe78f1",
     "title": "Fahrerlaubnis Klasse A1",
     "abbreviation": "Fe A1",
+    "default_expiration_time": "",
     "includes": [
       "f96bdfef-f1b8-46aa-8755-e506075ebc88"
     ],
@@ -56,6 +60,7 @@
     "uuid": "fe06530c-8216-40a0-81dd-2beaa8d803e1",
     "title": "Fahrerlaubnis Klasse A2",
     "abbreviation": "Fe A2",
+    "default_expiration_time": "",
     "includes": [
       "d7e9da8f-8386-4e7d-8706-62103bfe78f1"
     ],
@@ -71,6 +76,7 @@
     "uuid": "4ff00daa-1501-41c0-8d89-2e54cb43f293",
     "title": "Fahrerlaubnis Klasse A",
     "abbreviation": "Fe A",
+    "default_expiration_time": "",
     "includes": [
       "fe06530c-8216-40a0-81dd-2beaa8d803e1"
     ],
@@ -84,6 +90,7 @@
     "uuid": "0715b687-877a-4fed-bde0-5ea06b1043fc",
     "title": "Fahrerlaubnis Klasse B",
     "abbreviation": "Fe B",
+    "default_expiration_time": "",
     "includes": [
       "1c007860-48eb-4c86-a35b-45c6de903de4",
       "f96bdfef-f1b8-46aa-8755-e506075ebc88"
@@ -102,6 +109,7 @@
     "uuid": "31529f69-09d7-44cc-84f6-19fbfd949faa",
     "title": "Fahrerlaubnis Klasse BE",
     "abbreviation": "Fe BE",
+    "default_expiration_time": "",
     "includes": [
       "0715b687-877a-4fed-bde0-5ea06b1043fc"
     ],
@@ -118,6 +126,7 @@
     "uuid": "c9898e6c-4ecf-4781-9c0a-884861e36a81",
     "title": "Fahrerlaubnis Klasse C1",
     "abbreviation": "Fe C1",
+    "default_expiration_time": "",
     "includes": [
       "0715b687-877a-4fed-bde0-5ea06b1043fc"
     ],
@@ -134,6 +143,7 @@
     "uuid": "2d2fc932-5206-4c2c-bb63-0bc579acea6f",
     "title": "Fahrerlaubnis Klasse C",
     "abbreviation": "Fe C",
+    "default_expiration_time": "",
     "includes": [
       "c9898e6c-4ecf-4781-9c0a-884861e36a81"
     ],
@@ -149,6 +159,7 @@
     "uuid": "f5e3be89-59de-4b13-a92f-5949009f62d8",
     "title": "Fahrerlaubnis Klasse C1E",
     "abbreviation": "Fe C1E",
+    "default_expiration_time": "",
     "includes": [
       "31529f69-09d7-44cc-84f6-19fbfd949faa",
       "c9898e6c-4ecf-4781-9c0a-884861e36a81"
@@ -165,6 +176,7 @@
     "uuid": "736ca05a-7ff9-423a-9fa4-8b4641fde29c",
     "title": "Fahrerlaubnis Klasse CE",
     "abbreviation": "Fe CE",
+    "default_expiration_time": "",
     "includes": [
       "2d2fc932-5206-4c2c-bb63-0bc579acea6f",
       "f5e3be89-59de-4b13-a92f-5949009f62d8"
@@ -179,6 +191,7 @@
     "uuid": "3df818c6-f4a7-400e-a5bf-64ed087f79ab",
     "title": "Fahrerlaubnis Klasse D1",
     "abbreviation": "Fe D1",
+    "default_expiration_time": "",
     "includes": [
       "0715b687-877a-4fed-bde0-5ea06b1043fc"
     ],
@@ -195,6 +208,7 @@
     "uuid": "3238a892-afa8-4e76-b9b9-87d8765c5b72",
     "title": "Fahrerlaubnis Klasse D",
     "abbreviation": "Fe D",
+    "default_expiration_time": "",
     "includes": [
       "3df818c6-f4a7-400e-a5bf-64ed087f79ab"
     ],
@@ -210,6 +224,7 @@
     "uuid": "5d0ab40e-fade-4d45-9882-0039118a2445",
     "title": "Fahrerlaubnis Klasse D1E",
     "abbreviation": "Fe D1E",
+    "default_expiration_time": "",
     "includes": [
       "31529f69-09d7-44cc-84f6-19fbfd949faa",
       "3df818c6-f4a7-400e-a5bf-64ed087f79ab"
@@ -226,6 +241,7 @@
     "uuid": "64495d88-3ec0-4bbe-bc2b-78b6e6cfbc25",
     "title": "Fahrerlaubnis Klasse DE",
     "abbreviation": "Fe DE",
+    "default_expiration_time": "",
     "includes": [
       "3238a892-afa8-4e76-b9b9-87d8765c5b72",
       "5d0ab40e-fade-4d45-9882-0039118a2445"

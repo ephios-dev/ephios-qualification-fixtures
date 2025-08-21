@@ -3,6 +3,7 @@
     "uuid": "247fab6a-8784-4976-a406-985fe47dc683",
     "title": "Deutsches Rettungsschwimmabzeichen Bronze",
     "abbreviation": "DRSA-B",
+    "default_expiration_time": "00.00.+2",
     "includes": [],
     "included_by": [
       "ef95a854-2eeb-431c-a795-bc291b341d49"
@@ -16,6 +17,7 @@
     "uuid": "ef95a854-2eeb-431c-a795-bc291b341d49",
     "title": "Deutsches Rettungsschwimmabzeichen Silber",
     "abbreviation": "DRSA-S",
+    "default_expiration_time": "00.00.+2",
     "includes": [
       "247fab6a-8784-4976-a406-985fe47dc683",
       "8bdb343e-d78d-4cc9-80e7-7ccc36b556e1"
@@ -32,6 +34,7 @@
     "uuid": "b601a18b-cee8-4037-af33-dd7aabeac295",
     "title": "Deutsches Rettungsschwimmabzeichen Gold",
     "abbreviation": "DRSA-G",
+    "default_expiration_time": "00.00.+2",
     "includes": [
       "ef95a854-2eeb-431c-a795-bc291b341d49"
     ],

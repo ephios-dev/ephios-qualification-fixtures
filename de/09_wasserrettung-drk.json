@@ -3,6 +3,7 @@
     "uuid": "592604dd-afa2-4e21-ad0f-40c8b8e3b7eb",
     "title": "Rettungsschwimmer im Wasserrettungsdient",
     "abbreviation": "RS WRD",
+    "default_expiration_time": "",
     "includes": [],
     "included_by": [
       "502ee4cc-6e4e-47c0-9b0d-858c8e8638e1"
@@ -16,6 +17,7 @@
     "uuid": "502ee4cc-6e4e-47c0-9b0d-858c8e8638e1",
     "title": "Wasserretter",
     "abbreviation": "WR",
+    "default_expiration_time": "",
     "includes": [
       "592604dd-afa2-4e21-ad0f-40c8b8e3b7eb"
     ],
@@ -31,6 +33,7 @@
     "uuid": "5c523010-1e86-4b04-8190-542da69ecbcf",
     "title": "Fließwasserretter",
     "abbreviation": "FWR",
+    "default_expiration_time": "",
     "includes": [
       "502ee4cc-6e4e-47c0-9b0d-858c8e8638e1"
     ],

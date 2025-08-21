@@ -3,6 +3,7 @@
     "uuid": "c19195e4-c444-4e12-bade-f0d011436440",
     "title": "Truppführer",
     "abbreviation": "TF",
+    "default_expiration_time": "",
     "category": {
       "uuid": "605f7761-73df-4b41-a992-19a765f4bf49",
       "title": "Taktisch"
@@ -14,6 +15,7 @@
     "uuid": "9b9f0c05-aa5b-4f4e-8afd-7b4fdffd314a",
     "title": "Gruppenführer",
     "abbreviation": "GF",
+    "default_expiration_time": "",
     "category": {
       "uuid": "605f7761-73df-4b41-a992-19a765f4bf49",
       "title": "Taktisch"
@@ -27,6 +29,7 @@
     "uuid": "800c9f6c-5398-4feb-8d99-9c6b2ff3e42e",
     "title": "Zugführer",
     "abbreviation": "ZF",
+    "default_expiration_time": "",
     "category": {
       "uuid": "605f7761-73df-4b41-a992-19a765f4bf49",
       "title": "Taktisch"
@@ -40,6 +43,7 @@
     "uuid": "4b3a0f10-d03c-4378-89e7-58d87d5f3a34",
     "title": "Verbandführer",
     "abbreviation": "VF",
+    "default_expiration_time": "",
     "category": {
       "uuid": "605f7761-73df-4b41-a992-19a765f4bf49",
       "title": "Taktisch"
@@ -53,6 +57,7 @@
     "uuid": "3ac4c0df-57f9-4993-b870-1b82462c9d9e",
     "title": "Organisatorische*r Leiter*in Rettungsdienst",
     "abbreviation": "OrgL",
+    "default_expiration_time": "",
     "category": {
       "uuid": "605f7761-73df-4b41-a992-19a765f4bf49",
       "title": "Taktisch"
@@ -64,6 +69,7 @@
     "uuid": "de748a16-c063-4c4c-9cc2-4e4e904e0d6d",
     "title": "Leitender*e Notärzt*in",
     "abbreviation": "LNA",
+    "default_expiration_time": "",
     "category": {
       "uuid": "605f7761-73df-4b41-a992-19a765f4bf49",
       "title": "Taktisch"
@@ -77,6 +83,7 @@
     "uuid": "d47938f7-8138-4356-8960-1f6ed3fb2ccf",
     "title": "Fachberater*in",
     "abbreviation": "Fachb",
+    "default_expiration_time": "",
     "category": {
       "uuid": "605f7761-73df-4b41-a992-19a765f4bf49",
       "title": "Taktisch"

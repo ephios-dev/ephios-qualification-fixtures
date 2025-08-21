@@ -3,6 +3,7 @@
     "uuid": "bfcc1988-9708-4422-aacb-d08f39fec54e",
     "title": "Ärzt*in",
     "abbreviation": "Ärzt*in",
+    "default_expiration_time": "",
     "includes": [],
     "included_by": [
       "cb4f4ebc-3adf-4d32-a427-0ac0f686038a"
@@ -16,6 +17,7 @@
     "uuid": "46aa6671-ac7f-48cf-8f06-b537908d40c9",
     "title": "Pflegehilfskraft",
     "abbreviation": "PHK",
+    "default_expiration_time": "",
     "includes": [],
     "included_by": [
       "9a42481f-65b2-4b5e-b882-b1baf4619898"
@@ -29,6 +31,7 @@
     "uuid": "9a42481f-65b2-4b5e-b882-b1baf4619898",
     "title": "Pflegefachkraft",
     "abbreviation": "PFK",
+    "default_expiration_time": "",
     "includes": [
       "46aa6671-ac7f-48cf-8f06-b537908d40c9"
     ],
@@ -42,6 +45,7 @@
     "uuid": "f03a4d30-a7c4-43fa-b189-92a49a9c1b3a",
     "title": "Anästhesie technische*r Assistent*in",
     "abbreviation": "ATA",
+    "default_expiration_time": "",
     "includes": [],
     "included_by": [],
     "category": {
@@ -53,6 +57,7 @@
     "uuid": "e8126ae1-6a76-47b6-89d3-5d33c3db12c9",
     "title": "Medizinische* Fachangestellte*r",
     "abbreviation": "MFA",
+    "default_expiration_time": "",
     "includes": [],
     "included_by": [],
     "category": {
@@ -64,6 +69,7 @@
     "uuid": "21f8699a-6065-400a-b059-8521a64c72c8",
     "title": "Operationstechnische*r Assistent*in",
     "abbreviation": "OTA",
+    "default_expiration_time": "",
     "includes": [],
     "included_by": [],
     "category": {
