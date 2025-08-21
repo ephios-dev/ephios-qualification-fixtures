@@ -3,6 +3,7 @@
     "uuid": "8bdb343e-d78d-4cc9-80e7-7ccc36b556e1",
     "title": "Ersthelfer*in",
     "abbreviation": "EH",
+    "default_expiration_time": "00.00.+2",
     "includes": [],
     "included_by": [
       "cdb595e8-1dcb-46d2-8013-b915f818b321",
@@ -17,6 +18,7 @@
     "uuid": "cdb595e8-1dcb-46d2-8013-b915f818b321",
     "title": "Sanitäter*in A",
     "abbreviation": "San A",
+    "default_expiration_time": "00.00.+4",
     "includes": [
       "8bdb343e-d78d-4cc9-80e7-7ccc36b556e1"
     ],
@@ -32,6 +34,7 @@
     "uuid": "3fc86c78-2b87-49f7-8721-af7f8d51747c",
     "title": "Sanitäter*in B",
     "abbreviation": "San B",
+    "default_expiration_time": "00.00.+4",
     "includes": [
       "cdb595e8-1dcb-46d2-8013-b915f818b321"
     ],
@@ -47,6 +50,7 @@
     "uuid": "b1faab38-2e7c-4507-b753-06d1e653412d",
     "title": "Sanitätshelfer*in",
     "abbreviation": "SanH",
+    "default_expiration_time": "",
     "includes": [
       "8bdb343e-d78d-4cc9-80e7-7ccc36b556e1",
       "3fc86c78-2b87-49f7-8721-af7f8d51747c"
@@ -63,6 +67,7 @@
     "uuid": "de6c2449-a764-4c39-8f44-de276e99451b",
     "title": "Rettungshelfer*in",
     "abbreviation": "RH",
+    "default_expiration_time": "",
     "includes": [
       "b1faab38-2e7c-4507-b753-06d1e653412d"
     ],
@@ -78,6 +83,7 @@
     "uuid": "0b41fac6-ca9e-4b8a-82c5-849412187351",
     "title": "Rettungssanitäter*in",
     "abbreviation": "RettSan",
+    "default_expiration_time": "",
     "includes": [
       "de6c2449-a764-4c39-8f44-de276e99451b"
     ],
@@ -93,6 +99,7 @@
     "uuid": "2a24e395-fa02-4b2e-8215-7763b04d85c8",
     "title": "Rettungsassistent*in",
     "abbreviation": "RA",
+    "default_expiration_time": "",
     "includes": [
       "0b41fac6-ca9e-4b8a-82c5-849412187351"
     ],
@@ -108,6 +115,7 @@
     "uuid": "d114125b-7cf4-49e2-8908-f93e2f95dfb8",
     "title": "Notfallsanitäter*in",
     "abbreviation": "NFS",
+    "default_expiration_time": "",
     "includes": [
       "2a24e395-fa02-4b2e-8215-7763b04d85c8"
     ],
@@ -121,6 +129,7 @@
     "uuid": "cb4f4ebc-3adf-4d32-a427-0ac0f686038a",
     "title": "Notärzt*in",
     "abbreviation": "NA",
+    "default_expiration_time": "",
     "includes": [
       "bfcc1988-9708-4422-aacb-d08f39fec54e"
     ],

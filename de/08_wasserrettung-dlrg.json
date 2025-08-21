@@ -3,6 +3,7 @@
     "uuid": "93574a61-1a6e-4dd5-8df3-40e8c51b693f",
     "title": "Basisausbildung Einsatzdienste",
     "abbreviation": "Ba-E",
+    "default_expiration_time": "",
     "includes": [
     ],
     "included_by": [
@@ -19,6 +20,7 @@
     "uuid": "bd7ca398-ed2a-4e97-b681-bc8fb1138ada",
     "title": "Wasserretter (Fachausbildung Wasserrettungsdienst)",
     "abbreviation": "WR",
+    "default_expiration_time": "",
     "includes": [
       "93574a61-1a6e-4dd5-8df3-40e8c51b693f"
     ],
@@ -34,6 +36,7 @@
     "uuid": "e1c1fac1-146d-4a52-935e-36455bcf0f87",
     "title": "Strömungsretter 1",
     "abbreviation": "SR1",
+    "default_expiration_time": "",
     "includes": [
       "93574a61-1a6e-4dd5-8df3-40e8c51b693f"
     ],
@@ -49,6 +52,7 @@
     "uuid": "9c506e7e-a456-4f22-8027-5365ab7dc58c",
     "title": "Strömungsretter 2",
     "abbreviation": "SR2",
+    "default_expiration_time": "",
     "includes": [
       "e1c1fac1-146d-4a52-935e-36455bcf0f87"
     ],
@@ -63,6 +67,7 @@
     "uuid": "b7c0d6f1-2a3e-4f5b-8c9d-2f3e4b5c6d7e",
     "title": "Führungslehre",
     "abbreviation": "Fü-Le",
+    "default_expiration_time": "",
     "includes": [
       "93574a61-1a6e-4dd5-8df3-40e8c51b693f"
     ],
@@ -78,6 +83,7 @@
     "uuid": "c3d2e1f0-9a8b-4c7d-8e6f-5b4c3a2d1e0f",
     "title": "Wachführer*in",
     "abbreviation": "WF",
+    "default_expiration_time": "",
     "includes": [
       "bd7ca398-ed2a-4e97-b681-bc8fb1138ada",
       "b7c0d6f1-2a3e-4f5b-8c9d-2f3e4b5c6d7e"

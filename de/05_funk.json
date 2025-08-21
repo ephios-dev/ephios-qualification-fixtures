@@ -3,6 +3,7 @@
     "uuid": "506c4d4c-df11-4d41-95d7-c4ddfc78b706",
     "title": "BOS-Sprechfunk (digital)",
     "abbreviation": "Digitalfunk",
+    "default_expiration_time": "",
     "includes": [],
     "included_by": [],
     "category": {
@@ -14,6 +15,7 @@
     "uuid": "4974ea66-2086-4987-958b-503de21a285a",
     "title": "BOS-Sprechfunk (analog)",
     "abbreviation": "Analogfunk",
+    "default_expiration_time": "",
     "includes": [],
     "included_by": [],
     "category": {
@@ -25,6 +27,7 @@
     "uuid": "e8ff96da-0dd3-4664-9b9d-3c4abc1f40de",
     "title": "DLRG-Betriebsfunk",
     "abbreviation": "DLRG-Sprechfunker",
+    "default_expiration_time": "",
     "includes": [],
     "included_by": [],
     "category": {
@@ -36,6 +39,7 @@
     "uuid": "80946d2f-cbec-4e2e-9456-b4b9ce3b7fbc",
     "title": "Short Range Certificate",
     "abbreviation": "SRC",
+    "default_expiration_time": "",
     "includes": [],
     "included_by": [],
     "category": {
@@ -47,6 +51,7 @@
     "uuid": "570894f3-c8cd-4663-a0ed-f1fde78f3d64",
     "title": "Long Range Certificate",
     "abbreviation": "LRC",
+    "default_expiration_time": "",
     "includes": [
       "80946d2f-cbec-4e2e-9456-b4b9ce3b7fbc"
     ],
@@ -60,6 +65,7 @@
     "uuid": "c4a86388-45b8-4886-929f-8978df9d4ede",
     "title": "UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk",
     "abbreviation": "UBI",
+    "default_expiration_time": "",
     "includes": [],
     "included_by": [],
     "category": {

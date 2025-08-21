@@ -3,6 +3,7 @@
     "uuid": "edd7df71-616a-4c63-8ff4-061343a2c040",
     "title": "Sportbootführerschein Binnen unter Motor",
     "abbreviation": "SBF Binnen",
+    "default_expiration_time": "",
     "includes": [],
     "included_by": [
       "7ec0c9e2-f211-4370-b796-e309f3e9b448",
@@ -17,6 +18,7 @@
     "uuid": "ba9e2922-0c71-4ca2-8a11-9a3152335e57",
     "title": "Sportbootführerschein See",
     "abbreviation": "SBF See",
+    "default_expiration_time": "",
     "includes": [],
     "included_by": [
       "1ba25ee1-fa88-4d44-9416-3a024caa6daf",
@@ -31,6 +33,7 @@
     "uuid": "7ec0c9e2-f211-4370-b796-e309f3e9b448",
     "title": "DLRG-Bootsführerschein A",
     "abbreviation": "MRB Binnen",
+    "default_expiration_time": "",
     "includes": [
       "edd7df71-616a-4c63-8ff4-061343a2c040"
     ],
@@ -44,6 +47,7 @@
     "uuid": "1ba25ee1-fa88-4d44-9416-3a024caa6daf",
     "title": "DLRG-Bootsführerschein B",
     "abbreviation": "MRB See",
+    "default_expiration_time": "",
     "includes": [
       "ba9e2922-0c71-4ca2-8a11-9a3152335e57"
     ],
@@ -57,6 +61,7 @@
     "uuid": "60922f24-2f82-4591-88d7-2f43d47e33d0",
     "title": "Wasserwacht Dienstbootsführerschein Binnen",
     "abbreviation": "MRB Binnen",
+    "default_expiration_time": "",
     "includes": [
       "edd7df71-616a-4c63-8ff4-061343a2c040"
     ],
@@ -70,6 +75,7 @@
     "uuid": "c027f2bf-a185-4337-845a-2c3bf3c0da19",
     "title": "Wasserwacht Dienstbootsführerschein See",
     "abbreviation": "MRB See",
+    "default_expiration_time": "",
     "includes": [
       "ba9e2922-0c71-4ca2-8a11-9a3152335e57"
     ],
